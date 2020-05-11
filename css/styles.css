@@ -59,3 +59,19 @@ body{
     left: 0;
     min-height: 250px;
 }
+
+#carouselButton {
+    right:0px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 1;
+}
+
+.modal-header {
+    background:#512DA8;
+    color: white;
+}
+
+.modal-body {
+    background:rgb(209, 197, 236);
+}
