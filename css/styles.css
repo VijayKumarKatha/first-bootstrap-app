@@ -1,77 +1,66 @@
-.row-header{
-    margin: 0px auto;
-    padding: 0px;
-}
+.row-header {
+  margin: 0px auto;
+  padding: 0px 0px; }
 
-.row-content{
-    margin: 0px auto;
-    padding: 50px 0px 50px 0px;
-    border-bottom: 1px ridge;
-    min-height: 400px;
-}
+.row-content {
+  margin: 0px auto;
+  padding: 50px 0px;
+  border-bottom: 1px ridge;
+  min-height: 400px; }
 
-.footer{
-    background-color: rgb(157, 204, 184);
-    margin: 0px auto;
-    padding: 20px 0px 20px 0px;
-}
+.footer {
+  background-color: #D1C4E9;
+  margin: 0px auto;
+  padding: 20px 0px; }
 
 .jumbotron {
-    padding:70px 30px 70px 30px;
-    margin:0px auto;
-    background: rgb(255, 154, 171) ;
-    color:rgb(248, 244, 183);
-}
+  margin: 0px auto;
+  padding: 70px 30px;
+  background: #d878b3;
+  color: floralwhite; }
 
-address{
-    font-size:80%;
-    margin:0px;
-    color:#0f0e0d;
-}
+address {
+  font-size: 80%;
+  margin: 0px;
+  color: #0f0f0f; }
 
-body{
-    padding:50px 0px 0px 0px;
-    z-index:0;
-}
+body {
+  padding: 50px 0px 0px 0px;
+  z-index: 0; }
 
 .navbar-dark {
-     background-color: rgb(202, 55, 170);
-}
+  background-color: #cf39a2; }
 
 .tab-content {
-    border-left: 1px solid #ddd;
-    border-right: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
-    padding: 10px;
-}
+  border-left: 1px solid #d4d4d4;
+  border-right: 1px solid #d4d4d4;
+  border-bottom: 1px solid #d4d4d4;
+  padding: 10px; }
 
 .carousel {
-    background:#512DA8;
-}
-
-.carousel-item {
-  height: 250px;
-}
-
-.carousel-item img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    min-height: 250px;
-}
+  background: #cf39a2; }
+  .carousel .carousel-item {
+    height: 300px; }
+    .carousel .carousel-item img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      min-height: 300px; }
 
 #carouselButton {
-    right:0px;
-    position: absolute;
-    bottom: 0px;
-    z-index: 1;
-}
+  right: 0px;
+  position: absolute;
+  bottom: 0px;
+  z-index: 1; }
 
-.modal-header {
-    background:#512DA8;
-    color: white;
-}
+.modal .modal-header {
+  background-color: #cf39a2;
+  color: floralwhite; }
+  .modal .modal-header button {
+    color: floralwhite; }
 
-.modal-body {
-    background:rgb(209, 197, 236);
-}
+.modal .modal-body {
+  background-color: #D1C4E9; }
+
+.modal .modal-footer {
+  background: #d878b3; }
